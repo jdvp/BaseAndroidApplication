@@ -1,6 +1,9 @@
 package me.jdvp.baseandroidapplication.service;
 
+import javax.inject.Singleton;
+
 import dagger.Module;
+import dagger.Provides;
 
 /**
  * Module used for providing services
@@ -9,4 +12,9 @@ import dagger.Module;
  */
 @Module
 public class ServiceModule {
+    @Provides
+    @Singleton
+    public ImageService providesImageService() {
+        return ServiceCreator.createService(ImageService.class);
+    }
 }

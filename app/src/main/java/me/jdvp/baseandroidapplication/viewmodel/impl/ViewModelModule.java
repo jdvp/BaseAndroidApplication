@@ -1,6 +1,10 @@
 package me.jdvp.baseandroidapplication.viewmodel.impl;
 
+import javax.inject.Singleton;
+
 import dagger.Module;
+import dagger.Provides;
+import me.jdvp.baseandroidapplication.service.ImageService;
 import me.jdvp.baseandroidapplication.service.ServiceModule;
 
 /**
@@ -14,4 +18,9 @@ import me.jdvp.baseandroidapplication.service.ServiceModule;
         includes = {ServiceModule.class}
 )
 public class ViewModelModule {
-}
+    @Provides
+    @Singleton
+    ImageViewModel imageViewModel(ImageService imageService) {
+        return new ImageViewModel(imageService);
+    }
+ }
