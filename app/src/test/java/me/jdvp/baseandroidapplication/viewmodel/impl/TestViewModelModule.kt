@@ -1,12 +1,11 @@
-package me.jdvp.baseandroidapplication.viewmodel.impl;
+package me.jdvp.baseandroidapplication.viewmodel.impl
 
-import dagger.Module;
+import dagger.Module
 
 /**
  * Test module that mirrors ViewModelModule but mocks the dependencies
-
+ *
  * Created by jdvp on 6/19/18.
  */
 @Module
-public class TestViewModelModule {
-}
+class TestViewModelModule
