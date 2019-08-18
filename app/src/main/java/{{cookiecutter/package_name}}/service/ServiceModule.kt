@@ -1,4 +1,4 @@
-package me.jdvp.baseandroidapplication.service
+package {{cookiecutter.package_name}}.service
 
 import dagger.Module
 

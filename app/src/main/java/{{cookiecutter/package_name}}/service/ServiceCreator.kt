@@ -1,6 +1,6 @@
-package me.jdvp.baseandroidapplication.service
+package {{cookiecutter.package_name}}.service
 
-import me.jdvp.baseandroidapplication.BuildConfig
+import {{cookiecutter.package_name}}.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

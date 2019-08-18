@@ -1,9 +1,11 @@
-package me.jdvp.baseandroidapplication.activity
+package {{cookiecutter.package_name}}.R
+
+{{cookiecutter.package_name}}.activity
 
 import android.view.View
 import junit.framework.Assert.assertEquals
-import me.jdvp.baseandroidapplication.R
-import me.jdvp.baseandroidapplication.application.TestDaggerSetupApplication
+import {{cookiecutter.package_name}}.R
+import {{cookiecutter.package_name}}.application.TestDaggerSetupApplication
 import org.junit.Before
 import org.junit.Ignore
 import org.junit.Test

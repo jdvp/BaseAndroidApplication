@@ -1,4 +1,4 @@
-package me.jdvp.baseandroidapplication.viewmodel.impl
+package {{cookiecutter.package_name}}.viewmodel.impl
 
 import dagger.Module
 

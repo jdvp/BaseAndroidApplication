@@ -1,4 +1,4 @@
-package me.jdvp.baseandroidapplication.application
+package {{cookiecutter.package_name}}.application
 
 import dagger.android.AndroidInjector
 

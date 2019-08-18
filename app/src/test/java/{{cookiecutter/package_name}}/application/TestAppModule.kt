@@ -1,8 +1,8 @@
-package me.jdvp.baseandroidapplication.application
+package {{cookiecutter.package_name}}.application
 
 
 import dagger.Module
-import me.jdvp.baseandroidapplication.viewmodel.impl.TestViewModelModule
+import {{cookiecutter.package_name}}.viewmodel.impl.TestViewModelModule
 
 /**
  * Test module that mirrors AppModule but mocks the dependencies

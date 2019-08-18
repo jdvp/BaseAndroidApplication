@@ -1,10 +1,10 @@
-package me.jdvp.baseandroidapplication.application
+package {{cookiecutter.package_name}}.application
 
 import com.squareup.picasso.OkHttpDownloader
 import com.squareup.picasso.Picasso
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
-import me.jdvp.baseandroidapplication.BuildConfig
+import {{cookiecutter.package_name}}.BuildConfig
 
 /**
  * Application class used for setting up Dagger

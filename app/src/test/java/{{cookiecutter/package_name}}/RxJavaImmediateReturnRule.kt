@@ -1,4 +1,6 @@
-package me.jdvp.baseandroidapplication
+package`{{cookiecutter`.`package_name}}`
+
+{{cookiecutter.package_name}}
 
 import io.reactivex.android.plugins.RxAndroidPlugins
 import io.reactivex.plugins.RxJavaPlugins

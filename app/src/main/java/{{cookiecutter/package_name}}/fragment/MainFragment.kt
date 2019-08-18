@@ -1,4 +1,4 @@
-package me.jdvp.baseandroidapplication.fragment
+package {{cookiecutter.package_name}}.fragment
 
 
 
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.android.support.DaggerFragment
-import me.jdvp.baseandroidapplication.R
+import {{cookiecutter.package_name}}.R
 
 class MainFragment : DaggerFragment() {
 

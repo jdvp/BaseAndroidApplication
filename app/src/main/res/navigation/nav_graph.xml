@@ -5,6 +5,6 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="me.jdvp.baseandroidapplication.fragment.MainFragment"
+        android:name="{{cookiecutter.package_name}}.fragment.MainFragment"
         android:label="MainFragment" />
 </navigation>

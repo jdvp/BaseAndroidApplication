@@ -1,7 +1,7 @@
-package me.jdvp.baseandroidapplication.viewmodel.impl
+package {{cookiecutter.package_name}}.viewmodel.impl
 
 import dagger.Module
-import me.jdvp.baseandroidapplication.service.ServiceModule
+import {{cookiecutter.package_name}}.service.ServiceModule
 
 /**
  * Module that provides ViewModel dependencies. Also includes lower-level modules. In this case, we are including a module

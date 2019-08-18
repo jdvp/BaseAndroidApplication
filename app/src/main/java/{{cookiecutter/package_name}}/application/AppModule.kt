@@ -1,10 +1,10 @@
-package me.jdvp.baseandroidapplication.application
+package {{cookiecutter.package_name}}.application
 
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
 import dagger.Module
 import dagger.Provides
-import me.jdvp.baseandroidapplication.viewmodel.impl.ViewModelModule
+import {{cookiecutter.package_name}}.viewmodel.impl.ViewModelModule
 import javax.inject.Singleton
 
 /**

@@ -1,9 +1,9 @@
-package me.jdvp.baseandroidapplication.application
+package {{cookiecutter.package_name}}.application
 
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
-import me.jdvp.baseandroidapplication.activity.MainActivity
-import me.jdvp.baseandroidapplication.fragment.MainFragment
+import {{cookiecutter.package_name}}.activity.MainActivity
+import {{cookiecutter.package_name}}.fragment.MainFragment
 
 /**
  * Module that defines which views will be injected

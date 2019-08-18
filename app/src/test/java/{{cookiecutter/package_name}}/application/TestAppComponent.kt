@@ -1,9 +1,9 @@
-package me.jdvp.baseandroidapplication.application
+package {{cookiecutter.package_name}}.application
 
 import dagger.Component
 import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule
-import me.jdvp.baseandroidapplication.activity.MainActivityTest
+import {{cookiecutter.package_name}}.activity.MainActivityTest
 import javax.inject.Singleton
 
 /**
