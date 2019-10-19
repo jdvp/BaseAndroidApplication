@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}.viewmodel.impl
+package {{cookiecutter.package_name}}.repository.impl
 
 import dagger.Module
 import {{cookiecutter.package_name}}.service.ServiceModule
@@ -9,6 +9,6 @@ import {{cookiecutter.package_name}}.service.ServiceModule
  */
 
 @Module(includes = [ServiceModule::class])
-class ViewModelModule {
+class RepositoryModule {
 
 }

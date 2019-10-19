@@ -1,0 +1,7 @@
+{
+    "project_name": "BaseAndroidApplication",
+    "package_name": "me.jdvp.baseandroid",
+    "package_dir": "{{ cookiecutter.package_name | replace('.', '/') }}",
+    "application_class_name": "BaseAndroidApplication",
+    "_copy_without_render": [".gradle", "gradle/", "*gradlew", "*gradlew.bat"]
+}

@@ -8,13 +8,13 @@ import {{cookiecutter.package_name}}.viewmodel.impl.ViewModelModule
 import javax.inject.Singleton
 
 /**
- * Module that defines app-wide dependencies that aren't ViewModels
+ * Module that defines app-wide dependencies which aren't ViewModels
  */
 @Module(includes = [ViewModelModule::class])
 class AppModule {
     @Provides
     @Singleton
-    fun provideSharedPreferences(application: DaggerSetupApplication) : SharedPreferences {
+    fun provideSharedPreferences(application: {{cookiecutter.application_class_name}}) : SharedPreferences {
         return PreferenceManager.getDefaultSharedPreferences(application)
     }
 }

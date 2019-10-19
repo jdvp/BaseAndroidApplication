@@ -1,8 +1,4 @@
-package {{cookiecutter.package_name}}.R
-
-{{cookiecutter.package_name}}.R
-
-{{cookiecutter.package_name}}.activity
+package {{cookiecutter.package_name}}.activity
 
 import android.os.Bundle
 

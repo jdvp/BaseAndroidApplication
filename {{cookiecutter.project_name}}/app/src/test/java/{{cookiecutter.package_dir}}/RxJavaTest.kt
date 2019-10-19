@@ -1,6 +1,4 @@
-package`{{cookiecutter`.`package_name}}`
-
-{{cookiecutter.package_name}}
+package {{cookiecutter.package_name}}
 
 import org.junit.Rule
 

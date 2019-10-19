@@ -18,7 +18,7 @@ import javax.inject.Singleton
             ViewsModule::class
         ]
 )
-interface AppComponent : AndroidInjector<DaggerSetupApplication> {
+interface AppComponent : AndroidInjector<{{cookiecutter.application_class_name}}> {
     @Component.Builder
-    abstract class Builder : AndroidInjector.Builder<DaggerSetupApplication>()
+    abstract class Builder : AndroidInjector.Builder<{{cookiecutter.application_class_name}}>()
 }
