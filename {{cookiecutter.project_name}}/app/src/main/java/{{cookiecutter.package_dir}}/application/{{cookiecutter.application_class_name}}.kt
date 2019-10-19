@@ -10,13 +10,13 @@ import {{cookiecutter.package_name}}.BuildConfig
  * Application class used for setting up Dagger
  */
 
-class {{cookiecutter.application_class_name}} : DaggerApplication() {
+class DaggerSetupApplication : DaggerApplication() {
     override fun onCreate() {
         super.onCreate()
         setupPicasso()
     }
 
-    override fun applicationInjector(): AndroidInjector<{{cookiecutter.application_class_name}}> {
+    override fun applicationInjector(): AndroidInjector<DaggerSetupApplication> {
         return DaggerAppComponent.builder().create(this)
     }
 
